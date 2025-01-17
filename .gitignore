@@ -48,14 +48,20 @@ public/assets/css/*.css.map
 # Cache Files
 /storage/cache/*
 !/storage/cache/index.html
+/site/cache/*
+!/site/cache/index.html
 
 # Accounts
 /storage/accounts/*
 !/storage/accounts/index.html
+/site/accounts/*
+!/site/accounts/index.html
 
 # Sessions
 /storage/sessions/*
 !/storage/sessions/index.html
+/site/sessions/*
+!/site/sessions/index.html
 
 # License
 /site/config/.license
