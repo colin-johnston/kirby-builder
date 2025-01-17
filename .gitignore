@@ -1,50 +1,61 @@
-# System files
-# ------------
-
+# OS generated files
 Icon
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# NPM
+node_modules
+node_modules/*
+
+# Composer
+kirby/vendor/
+
+# Compiled CSS
+public/assets/css/*.css
+public/assets/css/*.min.css
+
+# Compiled JS
+public/assets/js/*.min.js
+
+# Sourcemaps
+public/assets/js/*.js.map
+public/assets/css/*.css.map
 
 # Temporary files
-# ---------------
-
 /media/*
 !/media/index.html
+.sass-cache/*
 
 # Lock files
-# ---------------
-
-.lock
+*.lock
 
 # Editors
-# (sensitive workspace files)
-# ---------------------------
+*.sublime-project
 *.sublime-workspace
 /.vscode
 /.idea
+
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
 
 # Cache Files
-# ---------------
-
-/site/cache/*
-!/site/cache/index.html
+/storage/cache/*
+!/storage/cache/index.html
 
 # Accounts
-# ---------------
-
-/site/accounts/*
-!/site/accounts/index.html
+/storage/accounts/*
+!/storage/accounts/index.html
 
 # Sessions
-# ---------------
-
-/site/sessions/*
-!/site/sessions/index.html
+/storage/sessions/*
+!/storage/sessions/index.html
 
 # License
-# ---------------
-
 /site/config/.license
